@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+<!--     
+     <button onclick="myfunction()" style="color: blue;"> button</button>
+    <button onclick="mysecondfunction()" style="color: chartreuse;"> button</button>
+    <button onclick="mythirdfunction()" style="color: brown;"> button</button>  
+     
+    <script>
+       
+       function myfunction()
+        {
+            alert("hello world...!")
+        }
+        function mysecondfunction()
+        {
+            alert("hello my life...!")
+        }
+        function mythirdfunction()
+        {
+            alert("hello meri jaan...!")
+        }
+    </script>  -->
+  
+    <h1 id="myheading">ABC</h1>
+    <button onclick="changehtml()" style="background-color: darkgoldenrod; margin-left: 200px;">change text</button>
+    <button onclick="changeattr()" style="flex-wrap: wrap; color: #666; padding: 10px; font-size: 2em; margin-left: 120px;" >change attribute</button>
+    <script>
+        function changehtml()
+        {
+            document.getElementById("myheading").outerHTML = ""
+        } 
+
+        function changeattr()
+        {
+            document.getElementById("myheading").setAttribute("style","color red")
+        }
+        
+   </script>
+
+</body>
+</html>
